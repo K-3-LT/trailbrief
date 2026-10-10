@@ -1,0 +1,75 @@
+{
+  "inputSha256": "62b0c1507da6e68ff2d098ea856b50e5f6c47c574797324c900cf09c48aadbd9",
+  "brief": {
+    "title": "Fictional Birch Meadow — supplied coverage, no closure",
+    "departure": "2026-10-11T09:00:00Z",
+    "generatedAt": "2026-10-10T14:20:08.083Z",
+    "mode": "model",
+    "modeLabel": "MODEL-SELECTED SEGMENT IDS · Deterministic source quotes · Verify before use",
+    "evidenceContractVersion": 1,
+    "modelGeneratesEvidenceText": false,
+    "claims": [
+      {
+        "sourceId": "route",
+        "segmentId": "route-69253a5b2b98642f1eb83ced",
+        "quote": "TEST FIXTURE, NOT A REAL TRAIL: Birch Meadow is an imaginary short loop."
+      },
+      {
+        "sourceId": "route",
+        "segmentId": "route-35a500925ad6d5ff4c763f7c",
+        "quote": "The marked path is open; this notice reports no closures."
+      },
+      {
+        "sourceId": "route",
+        "segmentId": "route-26ce13e598b939112963592f",
+        "quote": "Confirm current access with the real land manager before travel."
+      },
+      {
+        "sourceId": "weather",
+        "segmentId": "weather-b0f41b1befd6be0a3cc82334",
+        "quote": "TEST FIXTURE, NOT LIVE WEATHER: This is a supplied imaginary forecast."
+      },
+      {
+        "sourceId": "weather",
+        "segmentId": "weather-9549ab7d4ebbf50ba22bac5c",
+        "quote": "This supplied forecast covers 2026-10-11 from 08:00 to 18:00 UTC."
+      },
+      {
+        "sourceId": "weather",
+        "segmentId": "weather-53b4fc8e0fbe5508b278c7d7",
+        "quote": "Light winds and no precipitation are listed in this fictional forecast."
+      }
+    ],
+    "questions": [
+      "Does an official forecast cover your departure time and the full route?",
+      "Have you checked current closures, hazards and a return plan with official sources?"
+    ],
+    "warnings": [
+      "Source dates are supplied by you and are not independently verified.",
+      "Weather coverage, route conditions and closures must be checked with official sources before departure."
+    ],
+    "sources": [
+      {
+        "id": "route",
+        "label": "Fictional access notice — test data",
+        "url": "https://example.com/birch-route",
+        "text": "TEST FIXTURE, NOT A REAL TRAIL: Birch Meadow is an imaginary short loop.\nThe marked path is open; this notice reports no closures.\nConfirm current access with the real land manager before travel.",
+        "observedAt": "2026-10-10T06:00:00Z"
+      },
+      {
+        "id": "weather",
+        "label": "Fictional supplied forecast — test data",
+        "url": "https://example.com/birch-weather",
+        "text": "TEST FIXTURE, NOT LIVE WEATHER: This is a supplied imaginary forecast.\nThis supplied forecast covers 2026-10-11 from 08:00 to 18:00 UTC.\nLight winds and no precipitation are listed in this fictional forecast.",
+        "observedAt": "2026-10-10T06:00:00Z"
+      }
+    ],
+    "checklist": [
+      "Check official closures and a current forecast.",
+      "Carry an offline map, water, layers and a charged phone.",
+      "Tell someone your route and expected return time."
+    ],
+    "disclaimer": "A planning aid, not navigation, live weather, or a safety assessment. Missing evidence does not mean safe conditions."
+  },
+  "humanReviewRequired": true
+}

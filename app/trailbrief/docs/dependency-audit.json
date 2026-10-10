@@ -1,0 +1,136 @@
+{
+  "auditReportVersion": 2,
+  "vulnerabilities": {
+    "@mastra/core": {
+      "name": "@mastra/core",
+      "severity": "moderate",
+      "isDirect": true,
+      "via": [
+        "gray-matter"
+      ],
+      "effects": [],
+      "range": "<=0.0.0-yj-multitenant-scores-20260701201442 || >=1.1.0-alpha.0",
+      "nodes": [
+        "node_modules/@mastra/core"
+      ],
+      "fixAvailable": {
+        "name": "@mastra/core",
+        "version": "1.0.4",
+        "isSemVerMajor": true
+      }
+    },
+    "argparse": {
+      "name": "argparse",
+      "severity": "moderate",
+      "isDirect": false,
+      "via": [
+        "sprintf-js"
+      ],
+      "effects": [
+        "js-yaml"
+      ],
+      "range": "1.0.0 - 1.0.10",
+      "nodes": [
+        "node_modules/argparse"
+      ],
+      "fixAvailable": {
+        "name": "@mastra/core",
+        "version": "1.0.4",
+        "isSemVerMajor": true
+      }
+    },
+    "gray-matter": {
+      "name": "gray-matter",
+      "severity": "moderate",
+      "isDirect": false,
+      "via": [
+        "js-yaml"
+      ],
+      "effects": [
+        "@mastra/core"
+      ],
+      "range": ">=2.0.2",
+      "nodes": [
+        "node_modules/gray-matter"
+      ],
+      "fixAvailable": {
+        "name": "@mastra/core",
+        "version": "1.0.4",
+        "isSemVerMajor": true
+      }
+    },
+    "js-yaml": {
+      "name": "js-yaml",
+      "severity": "moderate",
+      "isDirect": false,
+      "via": [
+        "argparse"
+      ],
+      "effects": [
+        "gray-matter"
+      ],
+      "range": "3.2.7 - 3.15.2",
+      "nodes": [
+        "node_modules/js-yaml"
+      ],
+      "fixAvailable": {
+        "name": "@mastra/core",
+        "version": "1.0.4",
+        "isSemVerMajor": true
+      }
+    },
+    "sprintf-js": {
+      "name": "sprintf-js",
+      "severity": "moderate",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1241202,
+          "name": "sprintf-js",
+          "dependency": "sprintf-js",
+          "title": "sprintf-js vulnerable to denial of service through unbounded precision specifiers",
+          "url": "https://github.com/advisories/GHSA-hp3w-g68c-fv3c",
+          "severity": "moderate",
+          "cwe": [
+            "CWE-1284"
+          ],
+          "cvss": {
+            "score": 5.3,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+          },
+          "range": "<=1.1.3"
+        }
+      ],
+      "effects": [
+        "argparse"
+      ],
+      "range": "*",
+      "nodes": [
+        "node_modules/sprintf-js"
+      ],
+      "fixAvailable": {
+        "name": "@mastra/core",
+        "version": "1.0.4",
+        "isSemVerMajor": true
+      }
+    }
+  },
+  "metadata": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 5,
+      "high": 0,
+      "critical": 0,
+      "total": 5
+    },
+    "dependencies": {
+      "prod": 153,
+      "dev": 0,
+      "optional": 0,
+      "peer": 0,
+      "peerOptional": 0,
+      "total": 152
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "trailbrief",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A source-grounded pocket trail brief powered by a Mastra workflow.",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "check": "node --check src/server.js && node --check src/core.js && node --check src/segments.js && node --check src/workflow.js && node --check public/app.js && node --check src/session.js"
+  },
+  "dependencies": {
+    "@mastra/core": "1.75.0",
+    "zod": "^4.3.6"
+  }
+}

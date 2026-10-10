@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TrailBrief recorded synthetic model results: source segment IDs, exact evidence, and honest failure traces. Live API disabled.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>TrailBrief · Recorded model results</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./data.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <header class="top"><a href="./" class="brand">↟ TrailBrief</a><span class="status">Recorded model result / live API disabled</span></header>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">A SMALL BRIEF. A CLEARER PLAN.</p>
+      <h1>Take the evidence.<br><em>Check the unknowns.</em></h1>
+      <p class="intro">A model chooses source segment IDs. The backend copies the original text into a pocket brief. Explore the recorded results and the failures that changed the design.</p>
+      <p class="notice">Every example is synthetic. This page runs no model, accepts no key and checks no live weather or trail conditions.</p>
+    </section>
+    <section class="picker" aria-labelledby="pick-heading">
+      <div><p class="eyebrow">SIX RECORDED ATTEMPTS</p><h2 id="pick-heading">Inspect a real test record.</h2></div>
+      <label for="case-picker">Recorded case<select id="case-picker"></select></label>
+    </section>
+    <section class="run-meta" aria-live="polite"><span id="run-status" class="pill"></span><span id="run-model"></span><span id="run-time"></span></section>
+    <section class="columns">
+      <article class="paper" aria-labelledby="brief-heading">
+        <p class="eyebrow">THE RECORDED POCKET EDITION</p><h2 id="brief-heading"></h2><p id="departure" class="small"></p>
+        <div id="accepted-panel"><p class="assembly">Model-selected IDs · original source text copied by the program</p><div id="claims"></div><h3>Fixed checks before departure</h3><ul id="questions"></ul><ul id="warnings" class="small"></ul><div class="downloads"><a id="download-html" download>Download recorded brief</a><a id="download-json" download>Download recorded JSON</a></div></div>
+        <div id="failed-panel" hidden><h3>No accepted model brief</h3><p id="failure-message"></p><p class="small">The inputs and offline expectations below are context, not a replacement model result. No fallback answer or retry was presented as a successful run.</p></div>
+        <p class="note">A planning aid, not navigation or a safety assessment. Exact copying proves that evidence occurs in supplied text; it does not verify that the source is true, current or complete. Human review is required.</p>
+      </article>
+      <aside class="trace" aria-labelledby="trace-heading"><p class="eyebrow">SHOW THE WORK</p><h2 id="trace-heading">Input → selection → evidence</h2><ol id="trace-steps"></ol><details open><summary>Recorded assistant output</summary><pre id="assistant-output"></pre></details><details><summary>Numeric usage and timing</summary><pre id="usage"></pre></details><details><summary>Offline acceptance expectations</summary><p class="small">Authored before dispatch. These are test constraints, not generated observations.</p><div id="expectations"></div></details></aside>
+    </section>
+    <section class="sources" aria-labelledby="sources-heading"><p class="eyebrow">SUPPLIED SYNTHETIC INPUT</p><h2 id="sources-heading">Read the complete snapshots.</h2><div id="source-snapshots"></div><details><summary>Program-generated segment table</summary><p class="small">IDs bind the source and its exact text/positions. Recognizable override directives cannot be selected. Source text always remains data; it is never executed.</p><div id="segments"></div></details></section>
+    <section class="history" aria-labelledby="history-heading"><p class="eyebrow">FAILURES ARE PART OF THE RECORD</p><h2 id="history-heading">What changed, and what remains unverified.</h2><div class="table-scroll"><table><thead><tr><th>Attempt</th><th>Contract</th><th>Outcome</th><th>Why</th></tr></thead><tbody id="history"></tbody></table></div><p class="small">This is a small development record, not a benchmark, ranking or success-rate claim. The missing-data fixture passed offline tests, but attempt 6 received no usable response or usage and was not retried.</p><p id="cost-note" class="small"></p></section>
+  </main>
+  <footer><span>↟ TrailBrief</span><p>Actual local application: Node.js + Mastra workflows.<br>This public demo displays saved records only. Original project source remains UNLICENSED; dependency licenses remain applicable.</p></footer>
+</body>
+</html>

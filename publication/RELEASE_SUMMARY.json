@@ -1,0 +1,38 @@
+{
+  "releaseProfile": "public source and static recorded demo; no live model service",
+  "repository": "https://github.com/K-3-LT/trailbrief",
+  "pagesSource": {
+    "branch": "main",
+    "directory": "/docs",
+    "noJekyll": true
+  },
+  "publicDemoUrlVerified": false,
+  "originalCodeLicense": "UNLICENSED",
+  "modelContractVersion": 1,
+  "modelPromptVersion": 1,
+  "frozenImplementationUnchanged": true,
+  "realRequestCount": 6,
+  "acceptedRecordedAttempts": [
+    4,
+    5
+  ],
+  "additionalNormalCases": {
+    "attempt5": "accepted with supplied weather coverage and no reported closure",
+    "attempt6": "uncertain API_TRANSPORT_ERROR, no response/usage; no retry"
+  },
+  "knownReportedUsageCostEstimateUsd": 0.013918,
+  "unknownUsageAttempts": [
+    6
+  ],
+  "retainedReserveUsd": 1.5,
+  "reserveIsSpending": false,
+  "finalInvoiceVerified": false,
+  "offlineTests": 82,
+  "publicRelocationTests": 82,
+  "staticBrowserChecksPassed": true,
+  "dependencyPackages": 152,
+  "preservedDependencyLicenseFiles": 147,
+  "nextModelRequestAuthorized": false,
+  "publishedFromCloudTask": false,
+  "remainingExternalStep": "Publisher commits only the whitelist, verifies Pages/repository URLs and inserts verified Pages URL into the DEV draft before submission."
+}

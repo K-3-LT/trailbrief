@@ -1,0 +1,392 @@
+{
+  "tested": "Actual demo workflow and injected model-path workflow; no real inference",
+  "watched": [
+    "gray-matter",
+    "js-yaml",
+    "argparse",
+    "sprintf-js"
+  ],
+  "hits": [
+    {
+      "specifier": "gray-matter",
+      "resolved": "gray-matter/index.js",
+      "parent": "@mastra/core/dist/workspace-skills-6eZljLPJ.js"
+    },
+    {
+      "specifier": "gray-matter",
+      "resolved": "gray-matter/index.js",
+      "parent": "@mastra/core/dist/agent-skills-resolver-CW2hdqy8.js"
+    },
+    {
+      "specifier": "./lib/defaults",
+      "resolved": "gray-matter/lib/defaults.js",
+      "parent": "gray-matter/index.js"
+    },
+    {
+      "specifier": "./engines",
+      "resolved": "gray-matter/lib/engines.js",
+      "parent": "gray-matter/lib/defaults.js"
+    },
+    {
+      "specifier": "js-yaml",
+      "resolved": "js-yaml/index.js",
+      "parent": "gray-matter/lib/engines.js"
+    },
+    {
+      "specifier": "./lib/js-yaml.js",
+      "resolved": "js-yaml/lib/js-yaml.js",
+      "parent": "js-yaml/index.js"
+    },
+    {
+      "specifier": "./js-yaml/loader",
+      "resolved": "js-yaml/lib/js-yaml/loader.js",
+      "parent": "js-yaml/lib/js-yaml.js"
+    },
+    {
+      "specifier": "./common",
+      "resolved": "js-yaml/lib/js-yaml/common.js",
+      "parent": "js-yaml/lib/js-yaml/loader.js"
+    },
+    {
+      "specifier": "./exception",
+      "resolved": "js-yaml/lib/js-yaml/exception.js",
+      "parent": "js-yaml/lib/js-yaml/loader.js"
+    },
+    {
+      "specifier": "./mark",
+      "resolved": "js-yaml/lib/js-yaml/mark.js",
+      "parent": "js-yaml/lib/js-yaml/loader.js"
+    },
+    {
+      "specifier": "./schema/default_safe",
+      "resolved": "js-yaml/lib/js-yaml/schema/default_safe.js",
+      "parent": "js-yaml/lib/js-yaml/loader.js"
+    },
+    {
+      "specifier": "../schema",
+      "resolved": "js-yaml/lib/js-yaml/schema.js",
+      "parent": "js-yaml/lib/js-yaml/schema/default_safe.js"
+    },
+    {
+      "specifier": "./type",
+      "resolved": "js-yaml/lib/js-yaml/type.js",
+      "parent": "js-yaml/lib/js-yaml/schema.js"
+    },
+    {
+      "specifier": "./core",
+      "resolved": "js-yaml/lib/js-yaml/schema/core.js",
+      "parent": "js-yaml/lib/js-yaml/schema/default_safe.js"
+    },
+    {
+      "specifier": "./json",
+      "resolved": "js-yaml/lib/js-yaml/schema/json.js",
+      "parent": "js-yaml/lib/js-yaml/schema/core.js"
+    },
+    {
+      "specifier": "./failsafe",
+      "resolved": "js-yaml/lib/js-yaml/schema/failsafe.js",
+      "parent": "js-yaml/lib/js-yaml/schema/json.js"
+    },
+    {
+      "specifier": "../type/str",
+      "resolved": "js-yaml/lib/js-yaml/type/str.js",
+      "parent": "js-yaml/lib/js-yaml/schema/failsafe.js"
+    },
+    {
+      "specifier": "../type",
+      "resolved": "js-yaml/lib/js-yaml/type.js",
+      "parent": "js-yaml/lib/js-yaml/type/str.js"
+    },
+    {
+      "specifier": "../type/seq",
+      "resolved": "js-yaml/lib/js-yaml/type/seq.js",
+      "parent": "js-yaml/lib/js-yaml/schema/failsafe.js"
+    },
+    {
+      "specifier": "../type",
+      "resolved": "js-yaml/lib/js-yaml/type.js",
+      "parent": "js-yaml/lib/js-yaml/type/seq.js"
+    },
+    {
+      "specifier": "../type/map",
+      "resolved": "js-yaml/lib/js-yaml/type/map.js",
+      "parent": "js-yaml/lib/js-yaml/schema/failsafe.js"
+    },
+    {
+      "specifier": "../type",
+      "resolved": "js-yaml/lib/js-yaml/type.js",
+      "parent": "js-yaml/lib/js-yaml/type/map.js"
+    },
+    {
+      "specifier": "../type/null",
+      "resolved": "js-yaml/lib/js-yaml/type/null.js",
+      "parent": "js-yaml/lib/js-yaml/schema/json.js"
+    },
+    {
+      "specifier": "../type",
+      "resolved": "js-yaml/lib/js-yaml/type.js",
+      "parent": "js-yaml/lib/js-yaml/type/null.js"
+    },
+    {
+      "specifier": "../type/bool",
+      "resolved": "js-yaml/lib/js-yaml/type/bool.js",
+      "parent": "js-yaml/lib/js-yaml/schema/json.js"
+    },
+    {
+      "specifier": "../type",
+      "resolved": "js-yaml/lib/js-yaml/type.js",
+      "parent": "js-yaml/lib/js-yaml/type/bool.js"
+    },
+    {
+      "specifier": "../type/int",
+      "resolved": "js-yaml/lib/js-yaml/type/int.js",
+      "parent": "js-yaml/lib/js-yaml/schema/json.js"
+    },
+    {
+      "specifier": "../common",
+      "resolved": "js-yaml/lib/js-yaml/common.js",
+      "parent": "js-yaml/lib/js-yaml/type/int.js"
+    },
+    {
+      "specifier": "../type",
+      "resolved": "js-yaml/lib/js-yaml/type.js",
+      "parent": "js-yaml/lib/js-yaml/type/int.js"
+    },
+    {
+      "specifier": "../type/float",
+      "resolved": "js-yaml/lib/js-yaml/type/float.js",
+      "parent": "js-yaml/lib/js-yaml/schema/json.js"
+    },
+    {
+      "specifier": "../common",
+      "resolved": "js-yaml/lib/js-yaml/common.js",
+      "parent": "js-yaml/lib/js-yaml/type/float.js"
+    },
+    {
+      "specifier": "../type",
+      "resolved": "js-yaml/lib/js-yaml/type.js",
+      "parent": "js-yaml/lib/js-yaml/type/float.js"
+    },
+    {
+      "specifier": "../type/timestamp",
+      "resolved": "js-yaml/lib/js-yaml/type/timestamp.js",
+      "parent": "js-yaml/lib/js-yaml/schema/default_safe.js"
+    },
+    {
+      "specifier": "../type",
+      "resolved": "js-yaml/lib/js-yaml/type.js",
+      "parent": "js-yaml/lib/js-yaml/type/timestamp.js"
+    },
+    {
+      "specifier": "../type/merge",
+      "resolved": "js-yaml/lib/js-yaml/type/merge.js",
+      "parent": "js-yaml/lib/js-yaml/schema/default_safe.js"
+    },
+    {
+      "specifier": "../type",
+      "resolved": "js-yaml/lib/js-yaml/type.js",
+      "parent": "js-yaml/lib/js-yaml/type/merge.js"
+    },
+    {
+      "specifier": "../type/binary",
+      "resolved": "js-yaml/lib/js-yaml/type/binary.js",
+      "parent": "js-yaml/lib/js-yaml/schema/default_safe.js"
+    },
+    {
+      "specifier": "../type",
+      "resolved": "js-yaml/lib/js-yaml/type.js",
+      "parent": "js-yaml/lib/js-yaml/type/binary.js"
+    },
+    {
+      "specifier": "../type/omap",
+      "resolved": "js-yaml/lib/js-yaml/type/omap.js",
+      "parent": "js-yaml/lib/js-yaml/schema/default_safe.js"
+    },
+    {
+      "specifier": "../type",
+      "resolved": "js-yaml/lib/js-yaml/type.js",
+      "parent": "js-yaml/lib/js-yaml/type/omap.js"
+    },
+    {
+      "specifier": "../type/pairs",
+      "resolved": "js-yaml/lib/js-yaml/type/pairs.js",
+      "parent": "js-yaml/lib/js-yaml/schema/default_safe.js"
+    },
+    {
+      "specifier": "../type",
+      "resolved": "js-yaml/lib/js-yaml/type.js",
+      "parent": "js-yaml/lib/js-yaml/type/pairs.js"
+    },
+    {
+      "specifier": "../type/set",
+      "resolved": "js-yaml/lib/js-yaml/type/set.js",
+      "parent": "js-yaml/lib/js-yaml/schema/default_safe.js"
+    },
+    {
+      "specifier": "../type",
+      "resolved": "js-yaml/lib/js-yaml/type.js",
+      "parent": "js-yaml/lib/js-yaml/type/set.js"
+    },
+    {
+      "specifier": "./schema/default_full",
+      "resolved": "js-yaml/lib/js-yaml/schema/default_full.js",
+      "parent": "js-yaml/lib/js-yaml/loader.js"
+    },
+    {
+      "specifier": "./default_safe",
+      "resolved": "js-yaml/lib/js-yaml/schema/default_safe.js",
+      "parent": "js-yaml/lib/js-yaml/schema/default_full.js"
+    },
+    {
+      "specifier": "../type/js/undefined",
+      "resolved": "js-yaml/lib/js-yaml/type/js/undefined.js",
+      "parent": "js-yaml/lib/js-yaml/schema/default_full.js"
+    },
+    {
+      "specifier": "../../type",
+      "resolved": "js-yaml/lib/js-yaml/type.js",
+      "parent": "js-yaml/lib/js-yaml/type/js/undefined.js"
+    },
+    {
+      "specifier": "../type/js/regexp",
+      "resolved": "js-yaml/lib/js-yaml/type/js/regexp.js",
+      "parent": "js-yaml/lib/js-yaml/schema/default_full.js"
+    },
+    {
+      "specifier": "../../type",
+      "resolved": "js-yaml/lib/js-yaml/type.js",
+      "parent": "js-yaml/lib/js-yaml/type/js/regexp.js"
+    },
+    {
+      "specifier": "../type/js/function",
+      "resolved": "js-yaml/lib/js-yaml/type/js/function.js",
+      "parent": "js-yaml/lib/js-yaml/schema/default_full.js"
+    },
+    {
+      "specifier": "../../type",
+      "resolved": "js-yaml/lib/js-yaml/type.js",
+      "parent": "js-yaml/lib/js-yaml/type/js/function.js"
+    },
+    {
+      "specifier": "./js-yaml/dumper",
+      "resolved": "js-yaml/lib/js-yaml/dumper.js",
+      "parent": "js-yaml/lib/js-yaml.js"
+    },
+    {
+      "specifier": "./js-yaml/type",
+      "resolved": "js-yaml/lib/js-yaml/type.js",
+      "parent": "js-yaml/lib/js-yaml.js"
+    },
+    {
+      "specifier": "./js-yaml/schema",
+      "resolved": "js-yaml/lib/js-yaml/schema.js",
+      "parent": "js-yaml/lib/js-yaml.js"
+    },
+    {
+      "specifier": "./js-yaml/schema/failsafe",
+      "resolved": "js-yaml/lib/js-yaml/schema/failsafe.js",
+      "parent": "js-yaml/lib/js-yaml.js"
+    },
+    {
+      "specifier": "./js-yaml/schema/json",
+      "resolved": "js-yaml/lib/js-yaml/schema/json.js",
+      "parent": "js-yaml/lib/js-yaml.js"
+    },
+    {
+      "specifier": "./js-yaml/schema/core",
+      "resolved": "js-yaml/lib/js-yaml/schema/core.js",
+      "parent": "js-yaml/lib/js-yaml.js"
+    },
+    {
+      "specifier": "./js-yaml/schema/default_safe",
+      "resolved": "js-yaml/lib/js-yaml/schema/default_safe.js",
+      "parent": "js-yaml/lib/js-yaml.js"
+    },
+    {
+      "specifier": "./js-yaml/schema/default_full",
+      "resolved": "js-yaml/lib/js-yaml/schema/default_full.js",
+      "parent": "js-yaml/lib/js-yaml.js"
+    },
+    {
+      "specifier": "./js-yaml/exception",
+      "resolved": "js-yaml/lib/js-yaml/exception.js",
+      "parent": "js-yaml/lib/js-yaml.js"
+    },
+    {
+      "specifier": "./js-yaml/schema/failsafe",
+      "resolved": "js-yaml/lib/js-yaml/schema/failsafe.js",
+      "parent": "js-yaml/lib/js-yaml.js"
+    },
+    {
+      "specifier": "./js-yaml/schema/default_safe",
+      "resolved": "js-yaml/lib/js-yaml/schema/default_safe.js",
+      "parent": "js-yaml/lib/js-yaml.js"
+    },
+    {
+      "specifier": "./js-yaml/schema/default_full",
+      "resolved": "js-yaml/lib/js-yaml/schema/default_full.js",
+      "parent": "js-yaml/lib/js-yaml.js"
+    },
+    {
+      "specifier": "./utils",
+      "resolved": "gray-matter/lib/utils.js",
+      "parent": "gray-matter/lib/defaults.js"
+    },
+    {
+      "specifier": "./lib/stringify",
+      "resolved": "gray-matter/lib/stringify.js",
+      "parent": "gray-matter/index.js"
+    },
+    {
+      "specifier": "./engine",
+      "resolved": "gray-matter/lib/engine.js",
+      "parent": "gray-matter/lib/stringify.js"
+    },
+    {
+      "specifier": "./defaults",
+      "resolved": "gray-matter/lib/defaults.js",
+      "parent": "gray-matter/lib/stringify.js"
+    },
+    {
+      "specifier": "./lib/excerpt",
+      "resolved": "gray-matter/lib/excerpt.js",
+      "parent": "gray-matter/index.js"
+    },
+    {
+      "specifier": "./defaults",
+      "resolved": "gray-matter/lib/defaults.js",
+      "parent": "gray-matter/lib/excerpt.js"
+    },
+    {
+      "specifier": "./lib/engines",
+      "resolved": "gray-matter/lib/engines.js",
+      "parent": "gray-matter/index.js"
+    },
+    {
+      "specifier": "./lib/to-file",
+      "resolved": "gray-matter/lib/to-file.js",
+      "parent": "gray-matter/index.js"
+    },
+    {
+      "specifier": "./stringify",
+      "resolved": "gray-matter/lib/stringify.js",
+      "parent": "gray-matter/lib/to-file.js"
+    },
+    {
+      "specifier": "./lib/parse",
+      "resolved": "gray-matter/lib/parse.js",
+      "parent": "gray-matter/index.js"
+    },
+    {
+      "specifier": "./defaults",
+      "resolved": "gray-matter/lib/defaults.js",
+      "parent": "gray-matter/lib/parse.js"
+    },
+    {
+      "specifier": "./lib/utils",
+      "resolved": "gray-matter/lib/utils.js",
+      "parent": "gray-matter/index.js"
+    }
+  ],
+  "limits": "Module loading is supporting evidence, not proof for untested paths or future versions."
+}

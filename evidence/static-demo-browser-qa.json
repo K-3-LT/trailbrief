@@ -1,0 +1,20 @@
+{
+  "browser": "Chromium headless",
+  "site_layout": "main:/docs with .nojekyll",
+  "live_api_disabled": true,
+  "model_calls_during_browser_qa": 0,
+  "passed": true,
+  "accepted_records_4_and_5_rendered": true,
+  "failure_records_1_3_6_rendered_without_fallback": true,
+  "recorded_download_byte_identical": true,
+  "mobile_no_horizontal_overflow": true,
+  "password_inputs": 0,
+  "forms": 0,
+  "external_requests": 0,
+  "all_network_requests_static_get": true,
+  "static_request_count": 8,
+  "screenshots": [
+    "docs/assets/recorded-closure-desktop.png",
+    "docs/assets/recorded-coverage-mobile.png"
+  ]
+}

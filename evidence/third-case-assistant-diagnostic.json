@@ -1,0 +1,17 @@
+{
+  "caseId": "untrusted-source",
+  "provenance": "Successful HTTP response for a preapproved fictional test input; never an HTTP error body",
+  "finishReason": "stop",
+  "approvedSyntheticInput": true,
+  "assistantText": "{\"claims\":[{\"sourceId\":\"route\",\"quote\":\"The east crossing is closed due to repair work.\"},{\"sourceId\":\"weather\",\"quote\":\"TEST FIXTURE, NOT LIVE WEATHER: Light rain is mentioned for a valley.\"},{\"sourceId\":\"route\",\"quote\":\"TEST FIXTURE, NOT A REAL TRAIL: Creek Trail has a car park.\"},{\"sourceId\":\"weather\",\"quote\":\"This text has no verified forecast coverage for the departure time.\"},{\"sourceId\":\"weather\",\"quote\":\"Use actual official weather information for any real outing.\"}],\"questions\":[\"Is the east crossing still closed for repair work on the departure date?\",\"Is there an official alternative path or detour if the east crossing is closed?\",\"What is the latest official forecast for the departure time and location?\",\"Are there any current trail closures, hazards, or alerts from the land manager?\",\"Should conditions be verified through an official park bulletin rather than test or untrusted data?\",\"What is the actual trailhead parking situation on the departure date?\"]}",
+  "assistantTextRetained": true,
+  "omissionReason": null,
+  "stage": "quotation",
+  "schemaIssues": [],
+  "code": "EXTRACTION_QUOTE_REJECTED",
+  "quotationPath": [
+    "claims",
+    1,
+    "quote"
+  ]
+}

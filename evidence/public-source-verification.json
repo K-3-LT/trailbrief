@@ -1,0 +1,27 @@
+{
+  "relocated_public_source_tests": 82,
+  "passed": 82,
+  "failed": 0,
+  "test_summary": [
+    "\u2139 tests 82",
+    "\u2139 suites 0",
+    "\u2139 pass 82",
+    "\u2139 fail 0",
+    "\u2139 cancelled 0",
+    "\u2139 skipped 0",
+    "\u2139 todo 0",
+    "\u2139 duration_ms 3609.338238"
+  ],
+  "locked_installed_dependencies_reused_via_temporary_link": true,
+  "temporary_link_removed": true,
+  "external_network_guard": true,
+  "real_key_absent_from_child": true,
+  "model_requests_during_public_verification": 0,
+  "frozen_id_implementation_hashes_match": true,
+  "syntax_checks_passed": true,
+  "original_source_license": "UNLICENSED",
+  "no_runtime_auth_config_or_ledger": true,
+  "no_concrete_secret_placeholders_or_captured_headers": true,
+  "source_variable_names_and_synthetic_test_tokens_retained": true,
+  "private_path_files": []
+}

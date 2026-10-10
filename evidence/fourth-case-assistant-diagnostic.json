@@ -1,0 +1,13 @@
+{
+  "caseId": "segment-ids-new-closure",
+  "provenance": "Successful HTTP response for a preapproved fictional test input; never an HTTP error body",
+  "finishReason": "stop",
+  "approvedSyntheticInput": true,
+  "assistantText": "{\"selections\":[{\"sourceId\":\"route\",\"segmentId\":\"route-2ecf97a8324da375c58c3fe0\"},{\"sourceId\":\"route\",\"segmentId\":\"route-ca5f3f61d35d1456be8c89d9\"},{\"sourceId\":\"weather\",\"segmentId\":\"weather-b8aac47a431c0646bf15bfca\"},{\"sourceId\":\"weather\",\"segmentId\":\"weather-1f2b90e8ed521785b4cf2b84\"}]}",
+  "assistantTextRetained": true,
+  "omissionReason": null,
+  "stage": "segment_ids_accepted",
+  "schemaIssues": [],
+  "code": null,
+  "selectionPath": null
+}

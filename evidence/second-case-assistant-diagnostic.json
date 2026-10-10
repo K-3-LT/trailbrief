@@ -1,0 +1,12 @@
+{
+  "caseId": "expired-forecast",
+  "provenance": "Successful HTTP response for a preapproved fictional test input; never an HTTP error body",
+  "finishReason": "length",
+  "approvedSyntheticInput": true,
+  "assistantText": "",
+  "assistantTextRetained": true,
+  "omissionReason": null,
+  "stage": "completion",
+  "schemaIssues": [],
+  "code": "MODEL_OUTPUT_INCOMPLETE"
+}

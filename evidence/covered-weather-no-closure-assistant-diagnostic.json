@@ -1,0 +1,13 @@
+{
+  "caseId": "covered-weather-no-closure",
+  "provenance": "Successful HTTP response for a preapproved fictional test input; never an HTTP error body",
+  "finishReason": "stop",
+  "approvedSyntheticInput": true,
+  "assistantText": "{\"selections\":[{\"sourceId\":\"route\",\"segmentId\":\"route-69253a5b2b98642f1eb83ced\"},{\"sourceId\":\"route\",\"segmentId\":\"route-35a500925ad6d5ff4c763f7c\"},{\"sourceId\":\"route\",\"segmentId\":\"route-26ce13e598b939112963592f\"},{\"sourceId\":\"weather\",\"segmentId\":\"weather-b0f41b1befd6be0a3cc82334\"},{\"sourceId\":\"weather\",\"segmentId\":\"weather-9549ab7d4ebbf50ba22bac5c\"},{\"sourceId\":\"weather\",\"segmentId\":\"weather-53b4fc8e0fbe5508b278c7d7\"}]}",
+  "assistantTextRetained": true,
+  "omissionReason": null,
+  "stage": "segment_ids_accepted",
+  "schemaIssues": [],
+  "code": null,
+  "selectionPath": null
+}
