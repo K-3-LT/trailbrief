@@ -2,7 +2,9 @@
 
 TrailBrief turns supplied route and weather snapshots into a portable evidence brief. A model selects source segment IDs; the Node backend validates their ownership and copies original source slices. Questions and checklist text are fixed program text. The actual three-step workflow uses `@mastra/core/workflows`.
 
-**Public demo: recorded synthetic results, live API disabled.** GitHub Pages should serve **`main` → `/docs`**, which contains `.nojekyll`. That directory contains only static HTML/CSS/JavaScript, saved synthetic records, screenshots and downloads. It has no model endpoint, key form, account or backend. Choosing a case displays a saved record and never runs inference. A private Library download is a delivery artifact, not a public demo URL.
+[Public recorded demo](https://k-3-lt.github.io/trailbrief/) · [DEV Week 1 submission](https://dev.to/tao_li_0d9887b804d8389955/trailbrief-keep-the-evidence-leave-the-screen-9fb)
+
+**Public demo: recorded synthetic results, live API disabled.** GitHub Pages serves **`main` → `/docs`**, which contains `.nojekyll`. That directory contains only static HTML/CSS/JavaScript, saved synthetic records, screenshots and downloads. It has no model endpoint, key form, account or backend. Choosing a case displays a saved record and never runs inference. A private Library download is a delivery artifact, not a public demo URL.
 
 ## License
 
@@ -45,7 +47,7 @@ node --check docs/app.js
 node --check docs/data.js
 ```
 
-82 offline tests passed before the last two calls. Optional browser QA uses Python Playwright and an existing `/usr/bin/chromium` installation; these are verification tools, not runtime dependencies:
+The frozen release has 82 passing offline tests. Optional browser QA uses Python Playwright and an existing `/usr/bin/chromium` installation; these are verification tools, not runtime dependencies:
 
 ```sh
 python3 verification/static-demo-browser-test.py
@@ -63,4 +65,4 @@ The documented moderate transitive dependency advisory remains a limitation of t
 
 `docs/` is the sole Pages source. `app/trailbrief/` contains the actual local application and tests. `controller/` contains the bounded executor source, synthetic cases and tests. `diagnostics/` retains the historical quote contract and ID regression. `evidence/` contains selected public-safe recorded results. `publication/` contains the DEV Week 1 draft and publisher handoff. `third-party-licenses/` contains dependency metadata and supplied license/notice texts.
 
-Built for DEV's [Week 1 challenge](https://dev.to/challenges/hacktoberfest-week1-2026-10-05). Any post-deadline commits must be identified here before a submission claim. Publication URLs and repository dates must be verified by the separate publisher; no website or repository was published from this preparation environment.
+Built for DEV's [Week 1 challenge](https://dev.to/challenges/hacktoberfest-week1-2026-10-05). Any post-deadline commits must be identified here before a submission claim. The new public repository, static demo and DEV submission were published on October 10, 2026, within the challenge window.

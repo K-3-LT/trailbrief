@@ -1,6 +1,6 @@
 ---
 title: "TrailBrief: Keep the Evidence, Leave the Screen"
-published: false
+published: true
 tags: devchallenge, hf26challenge
 ---
 
@@ -18,7 +18,7 @@ All examples in this post and demo are synthetic. I have not field-tested this a
 
 ## Demo
 
-PUBLIC_DEMO_URL_PENDING — the publication coordinator must insert the verified GitHub Pages URL here before submission. This is deliberately not a private artifact link.
+[Explore the recorded demo](https://k-3-lt.github.io/trailbrief/).
 
 The public page is labeled **Recorded model result / live API disabled**. You can switch between six real request records, inspect the synthetic source inputs and selected IDs, compare the failures, and download the two accepted briefs. Changing the selector does not call a model. There is no API-key field or live backend.
 
@@ -28,7 +28,7 @@ The fifth record supplies a forecast window that contains the planned departure 
 
 ## Code
 
-[Source repository](https://github.com/K-3-LT/trailbrief). The publication coordinator has created this new repository and will upload the prepared release before submission.
+[Source repository](https://github.com/K-3-LT/trailbrief). The reviewed release contains 216 files.
 
 The repository contains the actual local Node/Mastra application, locked dependencies, tests, recorded results and the static `/docs` demo. Original TrailBrief source remains **UNLICENSED**. Public source visibility is not an additional open-source license; dependency licenses and notices are preserved separately.
 
@@ -57,9 +57,9 @@ Questions and checklist items are fixed program text. A model-written explanatio
 
 All six calls used the external `deepseek/deepseek-v4.1-flash` model with low reasoning and zero retries. The fourth API request through complete response-body receipt took 12.216 seconds; the fifth took 15.602 seconds. These measurements include the network and provider response, not just model compute. The sixth did not yield a completed-response measurement.
 
-There were 82 passing offline tests before the last two calls. They cover ID stability, ownership, unknown/repeated IDs, strict fields, instruction isolation, missing-weather handling, exact copying, safe export, actual Mastra execution with mocked extraction, budget continuity and first-error stop. Separate desktop/mobile browser checks verified that the static demo displayed recorded results, exposed no key form, made only local static GET requests and downloaded byte-identical saved briefs.
+There are 82 passing offline tests in the frozen release. They cover ID stability, ownership, unknown/repeated IDs, strict fields, instruction isolation, missing-weather handling, exact copying, safe export, actual Mastra execution with mocked extraction, budget continuity and first-error stop. Separate desktop/mobile browser checks verified that the static demo displayed recorded results, exposed no key form, made only local static GET requests and downloaded byte-identical saved briefs.
 
-This is a small development record, not a benchmark or success-rate claim. The missing-data case has offline coverage but no accepted real response. Reported usage for attempts 1–5 yields a conventional estimate of $0.013918 at the provider's [published token prices](https://iteracompute.com/pricing/). That excludes any unknown charge for attempt 6 and is not a final invoice. The retained $1.50 reservation is a safety allowance, not actual spending.
+This is a small development record, not a benchmark or success-rate claim. The missing-data case has offline coverage but no accepted real response. Reported usage for attempts 1–5 yields a conventional estimate of $0.013918 at the provider's [published token prices](https://www.iteracompute.com/models/deepseek-v4-1-flash/). That excludes any unknown charge for attempt 6 and is not a final invoice. The retained $1.50 reservation is a safety allowance, not actual spending.
 
 ## Why Does Open Innovation Matter?
 
@@ -73,7 +73,7 @@ Important limits remain: pasted text and timestamps are not authenticated; exact
 
 ## My Agent Session
 
-I used AI assistance for implementation and review. I am publishing the source, synthetic fixtures, validation records and failure history rather than a raw session log that could contain private configuration. The recorded demo shows the model inputs, retained assistant outputs and deterministic assembly trace without request headers or credentials.
+I directed an AI-assisted build; AI agents generated the implementation, tests and this write-up, and reviewed the recorded evidence. I am publishing the source, synthetic fixtures, validation records and failure history rather than a raw session log that could contain private configuration. The recorded demo shows the model inputs, retained assistant outputs and deterministic assembly trace without request headers or credentials.
 
 ## Prize Categories
 
